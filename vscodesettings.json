@@ -1,0 +1,46 @@
+{
+    "php.validate.executablePath": "/opt/lampp/bin/php",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "files.autoSave": "afterDelay",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.settings.editor": "json",
+    "python.jediEnabled": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "git.autofetch": true,
+    "npm.packageManager": "yarn",
+    "prettier.packageManager": "yarn",
+    "window.menuBarVisibility": "default",
+    "editor.wordWrap": "off",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "eslint.run": "onSave",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    // suggestions from Shades of Purple
+    "editor.cursorBlinking": "phase",
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false
+}
