@@ -1,6 +1,5 @@
 {
     "php.validate.executablePath": "/opt/lampp/bin/php",
-    "workbench.colorTheme": "One Dark Pro",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -17,7 +16,7 @@
     "git.autofetch": true,
     "npm.packageManager": "yarn",
     "prettier.packageManager": "yarn",
-    "window.menuBarVisibility": "default",
+    "window.menuBarVisibility": "toggle",
     "editor.wordWrap": "off",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -26,11 +25,6 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
     "eslint.run": "onSave",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.printWidth": 120,
-    "prettier.tabWidth": 4,
     // suggestions from Shades of Purple
     "editor.cursorBlinking": "phase",
     "editor.renderWhitespace": "all",
@@ -39,8 +33,14 @@
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "[html]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "java.semanticHighlighting.enabled": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "diffEditor.ignoreTrimWhitespace": false
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }
