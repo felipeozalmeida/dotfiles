@@ -1,46 +1,28 @@
 {
-    "php.validate.executablePath": "/opt/lampp/bin/php",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.cursorBlinking": "phase",
     "editor.fontSize": 12,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "terminal.integrated.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [120],
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "off",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // "emmet.includeLanguages": {
+    //     "javascript": "javascriptreact"
+    // },
+    "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "java.semanticHighlighting.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "npm.packageManager": "yarn",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.enablePreview": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "vscode-icons",
     "workbench.settings.editor": "json",
-    "python.jediEnabled": false,
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "git.autofetch": true,
-    "npm.packageManager": "yarn",
-    "prettier.packageManager": "yarn",
-    "window.menuBarVisibility": "toggle",
-    "editor.wordWrap": "off",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.configuration.checkProjectSettingsExclusions": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": true,
-    "eslint.run": "onSave",
-    // suggestions from Shades of Purple
-    "editor.cursorBlinking": "phase",
-    "editor.renderWhitespace": "all",
-    "editor.snippetSuggestions": "top",
-    "workbench.editor.enablePreview": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "java.semanticHighlighting.enabled": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always"
 }
