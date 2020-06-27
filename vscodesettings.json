@@ -22,6 +22,7 @@
     "files.trimTrailingWhitespace": true,
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
     "java.configuration.checkProjectSettingsExclusions": false,
     "java.refactor.renameFromFileExplorer": "autoApply",
     "java.semanticHighlighting.enabled": true,
@@ -36,5 +37,4 @@
     "workbench.editor.enablePreview": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "material-icon-theme",
-    "liveServer.settings.donotShowInfoMsg": true,
 }
