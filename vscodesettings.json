@@ -23,6 +23,7 @@
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "java.configuration.checkProjectSettingsExclusions": false,
+    "java.refactor.renameFromFileExplorer": "autoApply",
     "java.semanticHighlighting.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "npm.packageManager": "yarn",
@@ -36,5 +37,4 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "material-icon-theme",
     "liveServer.settings.donotShowInfoMsg": true,
-    "java.refactor.renameFromFileExplorer": "autoApply",
 }
