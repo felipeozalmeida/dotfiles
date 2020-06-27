@@ -1,28 +1,40 @@
 {
+    // -> != === !==
     "diffEditor.ignoreTrimWhitespace": true,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.renderWhitespace": "all",
-    "editor.rulers": [120],
+    "editor.rulers": [
+        { "column": 80, "color": "#3f31" },
+        { "column": 120, "color": "#f333" }
+    ],
     "editor.snippetSuggestions": "top",
     "editor.suggestSelection": "first",
     "editor.wordWrap": "off",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "explorer.confirmDragAndDrop": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    // "emmet.includeLanguages": {
-    //     "javascript": "javascriptreact"
-    // },
-    "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
     "java.semanticHighlighting.enabled": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "npm.packageManager": "yarn",
+    "php.executablePath": "/opt/lampp/bin/php",
+    "python.jediEnabled": false,
+    "remote.WSL.fileWatcher.polling": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "window.restoreWindows": "none",
     "workbench.colorTheme": "One Dark Pro",
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.settings.editor": "json",
-    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "java.refactor.renameFromFileExplorer": "autoApply",
 }
